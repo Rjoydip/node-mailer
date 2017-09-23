@@ -1,0 +1,2 @@
+# node-mailer
+Mailing example
