@@ -81,11 +81,11 @@ As stated here, you should:
 * In the sidebar on the left, select Credentials.
 * If you haven’t done so already, create your project’s OAuth 2.0 credentials by clicking Create new Client ID, and providing the information needed to create the credentials.
 
-![Image 1]("./docs/img1.png")
+![Image 1]("/docs/img1.png")
 
 * Look for the Client ID and Client secret in the table associated with each of your credentials.
 
-![Image 2]("./docs/img2.png")
+![Image 2]("/docs/img2.png")
 
 PAY SPECIAL ATTENTION TO specifying https://developers.google.com/oauthplayground as a Redirect URI when you create a new User in the console. Otherwise, you will have an error.
 
@@ -93,15 +93,15 @@ PAY SPECIAL ATTENTION TO specifying https://developers.google.com/oauthplaygroun
 * Go to the Google Oauth2.0 Playground.
 * Click the Gear Button on the right-top. Set your Client ID and Client Secret obtained from theGoogle Developers Console, and select Access token location as Authorization header w/ Bearer prefix. Close this configuration overlay.
 
-![Image 3]("./docs/img3.png")
+![Image 3]("/docs/img3.png")
 
 * Set up the scopes. Use https://mail.google.com/ as it’s the one need by nodemailer. Then click the Authorize APIs button.
 
-![Image 4]("./docs/img4.png")
+![Image 4]("/docs/img4.png")
 
 * After OAuth2.0 authorization, exchange authorization code for tokens and your refresh token is ready-to-use. 
 
-![Image 5]("./docs/img5.png")
+![Image 5]("/docs/img5.png")
 
 ***Note***
 > Make sure if you appling gmail user and password as auth then enable less sequrity app permission.
