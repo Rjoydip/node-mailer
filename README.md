@@ -81,11 +81,11 @@ As stated here, you should:
 * In the sidebar on the left, select Credentials.
 * If you haven’t done so already, create your project’s OAuth 2.0 credentials by clicking Create new Client ID, and providing the information needed to create the credentials.
 
-![Image 1]("/docs/img1.png")
+![Image 1](/docs/img1.png)
 
 * Look for the Client ID and Client secret in the table associated with each of your credentials.
 
-![Image 2]("/docs/img2.png")
+![Image 2](/docs/img2.png)
 
 PAY SPECIAL ATTENTION TO specifying https://developers.google.com/oauthplayground as a Redirect URI when you create a new User in the console. Otherwise, you will have an error.
 
