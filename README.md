@@ -104,5 +104,5 @@ PAY SPECIAL ATTENTION TO specifying https://developers.google.com/oauthplaygroun
 ![Image 5](/docs/img5.png)
 
 ***Note***
-> Make sure if you appling gmail user and password as auth then enable [lesssecureapps permission](https://myaccount.google.com/lesssecureapps).
+> Make sure if you appling gmail user and password as auth then enable [lesssecureapps](https://myaccount.google.com/lesssecureapps) permission.
     
