@@ -8,15 +8,15 @@ const xoauth2 = require('xoauth2');
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        xoauth2: xoauth2.createXOAuth2Generator({
-            user: process.env.MAIL_USER,
-            clientId: process.env.CLIENT_ID,
-            clientSecret: process.env.SECRET_KEY,
-            refreshToken: process.env.REFRESH_TOKEN,
-            accessToken: process.env.ACCESS_TOKEN
-        })
-        // user: process.env.MAIL_USER,
-        // pass: process.env.MAIL_PASS
+        // xoauth2: xoauth2.createXOAuth2Generator({
+        //     user: process.env.MAIL_USER,
+        //     clientId: process.env.CLIENT_ID,
+        //     clientSecret: process.env.SECRET_KEY,
+        //     refreshToken: process.env.REFRESH_TOKEN,
+        //     accessToken: process.env.ACCESS_TOKEN
+        // })
+        user: process.env.MAIL_USER,
+        pass: process.env.MAIL_PASS
     }
 });
 
